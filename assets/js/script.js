@@ -1,7 +1,11 @@
 // #BANNER SWIPER 
 
 let swiper1 = new Swiper(".banner__swiper", {
-    spaceBetween: 30,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    speed: 700,
+    effect: 'slide',
+    ease: 'easeInOut',
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
